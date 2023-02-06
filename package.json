@@ -1,0 +1,24 @@
+{
+  "name": "expense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build" : " tailwind build -i expenseapp/static/expenseapp/source.css -o expenseapp/static/expenseapp/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MATHRIX10/expenses-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MATHRIX10/expenses-tracker/issues"
+  },
+  "homepage": "https://github.com/MATHRIX10/expenses-tracker#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.16"
+  }
+}
